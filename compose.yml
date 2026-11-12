@@ -44,7 +44,7 @@ services:
       - backend
       - frontend
     ports:
-      - ${PORT_UI-8080}:8080
+      - ${PORT_UI-8081}:8081
     environment:
       ADMINER_DEFAULT_SERVER: postgres
       ADMINER_DEFAULT_DB: postgres
